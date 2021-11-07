@@ -45,7 +45,7 @@ export default function Album() {
         <Toolbar>
           <PublicIcon sx={{ mr: 2 }} />
           <Typography variant="h6" color="inherit" noWrap>
-            Lokalizator betonowych pustyni
+            Lokalizator betonowych pustyń
           </Typography>
         </Toolbar>
       </AppBar>
@@ -66,7 +66,7 @@ export default function Album() {
               color="text.secondary"
               gutterBottom
             >
-              Lokalizator betonowych pustyni
+              Lokalizator betonowych pustyń
             </Typography>
             <Typography variant="h4" align="center" color="text.secondary" paragraph>
               Każde większe miasto staje przed wyzwaniem jak najbardziej optymalnego wykorzystania wód opadowych. Jest to tym bardziej istotne w kontekście zwiększającego się zagęszczenia zabudowy.
@@ -133,7 +133,9 @@ export default function Album() {
       {/* Footer */}
       <Box sx={{ bgcolor: '#1e88e5', p: 6 }} component="footer">
         <Typography variant="h6" align="center" gutterBottom>
-          Inner Savages
+          <a href="https://innersavages.pl/" >
+            Inner Savages
+          </a>
         </Typography>
         <Typography
           variant="subtitle1"
@@ -143,7 +145,6 @@ export default function Album() {
         >
           @luc @jqu @tekashi @vocogy
         </Typography>
-        <Copyright />
       </Box>
       {/* End footer */}
     </ThemeProvider>
