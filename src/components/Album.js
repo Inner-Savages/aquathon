@@ -91,7 +91,7 @@ export default function Album() {
             </Stack>
             <hr color="blue" width="550px" />
             <iframe
-              src="https://www.google.com/maps/d/u/0/embed?mid=12VLCMtsHkDYJk4jr7oxkhDTITlz0EvaB"
+              src="https://www.google.com/maps/d/u/0/embed?mid=1MTuFvlzK59O7Dc1k5PBx0IKtV4OEwnYg"
               width="640"
               height="480"
               style={{ margin: "0 auto", display: "block" }}
