@@ -101,6 +101,9 @@ export default function Album() {
               <br />
               Legenda
             </Typography>
+            <Typography variant="h4" align="center" color="text.secondary" paragraph>
+              Kolory przechodzą płynnie w zależności od rodzaju zidentyfikowanego obszaru.
+            </Typography>
             <Typography variant="h4" align="left" color="#f50057" paragraph>
               <br />
               - Kolor czerwony - obszary zidentyfikowane jako "betonowe pustynie"
@@ -108,8 +111,8 @@ export default function Album() {
             <Typography variant="h4" align="left" color="#4caf50" paragraph>
               - Kolor zielony - obszary z potencjałem na zatrzymanie wody "w mieście"
             </Typography>
-            <Typography variant="h4" align="left" color="#00b0ff" paragraph>
-              - Kolor niebieski - obszary mieszane, tj. niemożliwe do jednoznacznego zakwalifikowania jako zielone/czerwone
+            <Typography variant="h4" align="left" color="#ffea00" paragraph>
+              - Kolor zółty - obszary mieszane, tj. niemożliwe do jednoznacznego zakwalifikowania jako zielone/czerwone
             </Typography>
             <hr />
             <Typography variant="h2" align="center" color="text.secondary" paragraph>
@@ -124,7 +127,6 @@ export default function Album() {
               - Wizualizację możliwości retencyjnych miasta.
               <hr />
             </Typography>
-
           </Container>
         </Box>
       </main>
